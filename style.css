@@ -1,0 +1,36 @@
+body{
+    background-color:lightgreen;
+}
+
+#show_sketch{
+    float: right;
+}
+
+#heading{
+    background-color: white;
+}
+
+#dis{
+    color:red;
+}
+#score{
+    float:left;
+    font-weight:bolder;
+    color: blue;
+}
+
+#timer{
+    float:right;
+    font-weight:bolder;
+    color: blue;
+}
+
+canvas{
+    border: solid 2px red;
+    border-radius: 50px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 200px;
+    animation-iteration-count: infinite; 
+    background-color: white;
+}
